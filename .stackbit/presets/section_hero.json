@@ -1,0 +1,44 @@
+{
+    "model": "section_hero",
+    "presets": [
+        {
+            "label": "Hero Banner",
+            "thumbnail": "images/section-hero.png",
+            "data": {
+                "title": "Next.js + Sourcebit = 🙌🏻",
+                "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
+                "image": {
+                    "_type": "image",
+                    "asset": {
+                        "_type": "reference",
+                        "_ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
+                    }
+                },
+                "actions": [
+                    {
+                        "_key": "hero-action-1",
+                        "_type": "action",
+                        "label": "Learn more",
+                        "url": "#"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Hero Banner (No Image)",
+            "thumbnail": "images/section-hero__no-text.png",
+            "data": {
+                "title": "Next.js + Sourcebit = 🙌🏻",
+                "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
+                "actions": [
+                    {
+                        "_key": "hero-action-1",
+                        "_type": "action",
+                        "label": "Learn more",
+                        "url": "#"
+                    }
+                ]
+            }
+        }
+    ]
+}

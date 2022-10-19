@@ -1,0 +1,44 @@
+{
+    "model": "section_content",
+    "presets": [
+        {
+            "label": "Content Section",
+            "thumbnail": "images/section-content.png",
+            "data": {
+                "image": {
+                    "_type": "image",
+                    "asset": {
+                        "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
+                        "_type": "reference"
+                    }
+                },
+                "title": "Next.js + Sourcebit = 🙌🏻",
+                "content": "[Sourcebit](https://github.com/stackbithq/sourcebit) is an open-source tool that closes the gap between headless CMS and static site generators such as Next.js. It is driven by different plugins that fetch data from any possible API source, transform and normalize the data into a format expected by an SSG, and eventually provide that data to the SSG.\n\nSourcebit makes it easy to connect your site to a headless CMS while also taking care of **caching the fetched content** and **observing content changes**.",
+                "actions": [
+                    {
+                        "_key": "content-action-1",
+                        "_type": "action",
+                        "label": "Try Sourcebit",
+                        "url": "https://github.com/stackbithq/sourcebit"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Content Section (No Image)",
+            "thumbnail": "images/section-content__no-image.png",
+            "data": {
+                "title": "Next.js + Sourcebit = 🙌🏻",
+                "content": "[Sourcebit](https://github.com/stackbithq/sourcebit) is an open-source tool that closes the gap between headless CMS and static site generators such as Next.js. It is driven by different plugins that fetch data from any possible API source, transform and normalize the data into a format expected by an SSG, and eventually provide that data to the SSG.\n\nSourcebit makes it easy to connect your site to a headless CMS while also taking care of **caching the fetched content** and **observing content changes**.",
+                "actions": [
+                    {
+                        "_key": "content-action-1",
+                        "_type": "action",
+                        "label": "Try Sourcebit",
+                        "url": "https://github.com/stackbithq/sourcebit"
+                    }
+                ]
+            }
+        }
+    ]
+}

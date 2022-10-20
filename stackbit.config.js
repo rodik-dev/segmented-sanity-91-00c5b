@@ -5,7 +5,7 @@ export default {
   stackbitVersion: '0.5.0',
   ssgName: 'next',
   buildCommand: 'npm run build',
-  publishDir: out
+  publishDir: 'out',
   // ... other props ...
 
   // The siteMap is also a new function that will provide a simpler way

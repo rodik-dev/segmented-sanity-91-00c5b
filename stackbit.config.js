@@ -17,21 +17,23 @@ export default {
 //       // return sitemap using documents and models based on process.env.SEGMENT
 //   },
 
-//   mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
-//     // adjust models based on process.env.SEGMENT
-//     return models.map((model) => {
-//       if (process.env.SEGMENT === 'marketing' && model.name === 'MarketingPage') {
-//         model = {
-//           ...model,
-//           hidden: true,
-//           // OR
-//           // readOnly: true
-//         }
-//       }
+  mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
+    // adjust models based on process.env.SEGMENT
+    return models.map((model) => {
+      if (process.env.SEGMENT === 'marketing' && model.name === 'MarketingPage') {
+        const isPageModel = ['page', 'landing'].includes(model.name)
+        model = {
+          ...model,
+          hidden: true,
+          ...(isPageModel ? {type: 'page'} : {})
+          // OR
+          // readOnly: true
+        }
+      }
       
-//       return model;
-//     });
-//   },
+      return model;
+    });
+  },
 
   // contentSources list objects that implement the CSI
   contentSources: [

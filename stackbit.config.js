@@ -20,13 +20,12 @@ export default {
   mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
     // adjust models based on process.env.SEGMENT
     return models.map((model) => {
-    //   if (process.env.SEGMENT === 'marketing' && model.name === 'MarketingPage') {
         const isPageModel = ['page', 'landing'].includes(model.name)
         model = {
           ...model,
           ...(isPageModel ? {type: 'page'} : {})
         }
-              
+
       return model;
     });
   },

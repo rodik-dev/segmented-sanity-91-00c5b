@@ -25,8 +25,7 @@ export default {
           ...model,
           ...(isPageModel ? {type: 'page'} : {})
         }
-
-      return model;
+        return model;
     });
   },
 

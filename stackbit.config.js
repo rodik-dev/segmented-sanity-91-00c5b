@@ -46,23 +46,23 @@ export default {
   // according to the provided segment
   // this function is called by our internal cms
   // engine every time a document is created or updated
-  mapDocuments: (documents: Document[]) {
+//   mapDocuments: (documents: Document[]) {
 
-    // if we are not in a segment, don't map documents
-    if (!process.env.SEGMENT) {
-      return documents;
-    }
+//     // if we are not in a segment, don't map documents
+//     if (!process.env.SEGMENT) {
+//       return documents;
+//     }
 
-    // if we are in a segment, mark any documents
-    // that are not part of this segment as readOnly
-    return documents.map((document) => {
-      // if a document's slug doesn't start with
-      // SEGMENT_URL, mark the document as readOnly
-      // so the studio will not allow editing it
-      if (document.fields.slug.startsWith(`/${process.env.SEGMENT}/`))
-        return { ...document, readOnly: true };
-      }
-      return document;
-    });
-  }
+//     // if we are in a segment, mark any documents
+//     // that are not part of this segment as readOnly
+//     return documents.map((document) => {
+//       // if a document's slug doesn't start with
+//       // SEGMENT_URL, mark the document as readOnly
+//       // so the studio will not allow editing it
+//       if (document.fields.slug.startsWith(`/${process.env.SEGMENT}/`))
+//         return { ...document, readOnly: true };
+//       }
+//       return document;
+//     });
+//   }
 }

@@ -12,9 +12,9 @@ export default {
   // documents. Using environment variables like SEGMENT,
   // developers will be able to specify which pages are available
   // for each segment
-  siteMap: ({ documents, models }) => {
-      // return sitemap using documents and models based on process.env.SEGMENT
-  },
+//   siteMap: ({ documents, models }) => {
+//       // return sitemap using documents and models based on process.env.SEGMENT
+//   },
 
   mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
     // adjust models based on process.env.SEGMENT

@@ -32,7 +32,7 @@ export default {
       }
       
       return model;
-    // });
+    });
   },
 
   // contentSources list objects that implement the CSI

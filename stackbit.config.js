@@ -4,6 +4,7 @@ import SanityContentSource from '@stackbit/cms-sanity';
 export default {
   stackbitVersion: '0.5.0',
   ssgName: 'next',
+  buildCommand: 'npm run build',
 
   // ... other props ...
 

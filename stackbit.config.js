@@ -24,7 +24,6 @@ export default {
         const isPageModel = ['page', 'landing'].includes(model.name)
         model = {
           ...model,
-          hidden: true,
           ...(isPageModel ? {type: 'page'} : {})
           // OR
           // readOnly: true

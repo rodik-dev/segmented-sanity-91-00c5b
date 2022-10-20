@@ -25,11 +25,8 @@ export default {
         model = {
           ...model,
           ...(isPageModel ? {type: 'page'} : {})
-          // OR
-          // readOnly: true
         }
-    //   }
-      
+              
       return model;
     });
   },

@@ -6,10 +6,10 @@
             "thumbnail": "images/section-content.png",
             "data": {
                 "image": {
-                    "_type": "image",
+                    "$$type": "image",
                     "asset": {
                         "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
-                        "_type": "reference"
+                        "$$type": "reference"
                     }
                 },
                 "title": "Next.js + Sourcebit = 🙌🏻",
@@ -17,7 +17,7 @@
                 "actions": [
                     {
                         "$$key": "content-action-1",
-                        "_type": "action",
+                        "$$type": "action",
                         "label": "Try Sourcebit",
                         "url": "https://github.com/stackbithq/sourcebit"
                     }
@@ -33,7 +33,7 @@
                 "actions": [
                     {
                         "$$key": "content-action-1",
-                        "_type": "action",
+                        "$$type": "action",
                         "label": "Try Sourcebit",
                         "url": "https://github.com/stackbithq/sourcebit"
                     }

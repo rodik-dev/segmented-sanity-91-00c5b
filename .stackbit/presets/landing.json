@@ -15,7 +15,7 @@
                             "$$type": "image",
                             "asset": {
                                 "$$type": "reference",
-                                "_ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
+                                "$$ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
                             }
                         },
                         "actions": [
@@ -47,7 +47,7 @@
                             "image": {
                               "$$type": "image",
                               "asset": {
-                                "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
+                                "$$ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
                                 "$$type": "reference"
                               }
                             },
@@ -68,7 +68,7 @@
                             "image": {
                               "$$type": "image",
                               "asset": {
-                                "_ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
+                                "$$ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
                                 "$$type": "reference"
                               }
                             },
@@ -89,7 +89,7 @@
                             "image": {
                               "$$type": "image",
                               "asset": {
-                                "_ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png",
+                                "$$ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png",
                                 "$$type": "reference"
                               }
                             },

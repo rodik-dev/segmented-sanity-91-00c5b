@@ -9,7 +9,7 @@
                 "subtitle": "This is an optional description for the call to action block.",
                 "actions": [
                     {
-                        "_key": "cta-action-1",
+                        "$$key": "cta-action-1",
                         "_type": "action",
                         "label": "Get Started",
                         "url": "#"

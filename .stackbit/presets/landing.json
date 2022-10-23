@@ -7,7 +7,7 @@
             "data": {
                 "sections": [
                     {
-                        "_key": "hero-section-1",
+
                         "$$type": "section_hero",
                         "title": "Next.js + Sourcebit = 🙌🏻",
                         "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
@@ -20,7 +20,7 @@
                         },
                         "actions": [
                             {
-                                "_key": "hero-action-1",
+
                                 "$$type": "action",
                                 "label": "Learn more",
                                 "url": "/"
@@ -28,16 +28,16 @@
                         ]
                     },
                     {
-                        "_key": "feature-section-1",
+
                         "$$type": "section_features",
                         "background": "gray",
                         "features": [
                           {
-                            "_key": "1",
+
                             "$$type": "feature_item",
                             "actions": [
                               {
-                                "_key": "action-1",
+
                                 "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
@@ -54,11 +54,11 @@
                             "title": "Live Updates on Content Change!"
                           },
                           {
-                            "_key": "2",
+
                             "$$type": "feature_item",
                             "actions": [
                               {
-                                "_key": "action-1",
+
                                 "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
@@ -75,11 +75,11 @@
                             "title": "Content Caching"
                           },
                           {
-                            "_key": "3",
+
                             "$$type": "feature_item",
                             "actions": [
                               {
-                                "_key": "action-1",
+
                                 "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"

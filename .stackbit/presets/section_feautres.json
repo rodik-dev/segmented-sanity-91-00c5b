@@ -9,63 +9,63 @@
                 "features": [
                     {
                         "$$key": "1",
-                        "_type": "feature_item",
+                        "$$type": "feature_item",
                         "actions": [
                             {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                             }
                         ],
                         "content": "When the site content is changed, instantly update the page in the browser.",
                         "image": {
-                            "_type": "image",
+                            "$$type": "image",
                             "asset": {
                                 "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                             }
                         },
                         "title": "Live Updates on Content Change!"
                     },
                     {
                         "$$key": "2",
-                        "_type": "feature_item",
+                        "$$type": "feature_item",
                         "actions": [
                             {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                             }
                         ],
                         "content": "Instead of executing an API call every time a page is requested, a single API call is made when the development server starts, fetching the content and caching it for future use.",
                         "image": {
-                            "_type": "image",
+                            "$$type": "image",
                             "asset": {
                                 "_ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                             }
                         },
                         "title": "Content Caching"
                     },
                     {
                         "$$key": "3",
-                        "_type": "feature_item",
+                        "$$type": "feature_item",
                         "actions": [
                             {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                             }
                         ],
                         "content": "The client is notified when content changes and changes are synced automatically.",
                         "image": {
-                            "_type": "image",
+                            "$$type": "image",
                             "asset": {
                                 "_ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                             }
                         },
                         "title": "Observe Content Changes"
@@ -84,21 +84,21 @@
                 "features": [
                     {
                         "$$key": "1",
-                        "_type": "feature_item",
+                        "$$type": "feature_item",
                         "actions": [
                             {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                             }
                         ],
                         "content": "When the site content is changed, instantly update the page in the browser.",
                         "image": {
-                            "_type": "image",
+                            "$$type": "image",
                             "asset": {
                                 "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                             }
                         },
                         "title": "Live Updates on Content Change!"

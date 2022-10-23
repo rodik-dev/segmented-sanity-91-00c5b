@@ -62,7 +62,6 @@
                             "content": "Instead of executing an API call every time a page is requested, a single API call is made when the development server starts, fetching the content and caching it for future use.",
                             "image": {
                               "$$type": "image",
-                              "asset": {
                                 "$$ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
                                 "$$type": "reference"
                               }

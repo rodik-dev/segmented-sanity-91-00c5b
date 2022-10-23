@@ -10,7 +10,7 @@
                 "image": {
                   "$$type": "image",
                   "asset": {
-                    "_ref": "image-be8a6a69e1b5e14dcf9395ca5fa9ed710036a0e4-1280x835-jpg",
+                    "$$ref": "image-be8a6a69e1b5e14dcf9395ca5fa9ed710036a0e4-1280x835-jpg",
                     "$$type": "reference"
                   }
                 }

@@ -8,20 +8,20 @@
                 "sections": [
                     {
                         "$$key": "hero-section-1",
-                        "_type": "section_hero",
+                        "$$type": "section_hero",
                         "title": "Next.js + Sourcebit = 🙌🏻",
                         "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
                         "image": {
-                            "_type": "image",
+                            "$$type": "image",
                             "asset": {
-                                "_type": "reference",
+                                "$$type": "reference",
                                 "_ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
                             }
                         },
                         "actions": [
                             {
                                 "$$key": "hero-action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn more",
                                 "url": "/"
                             }
@@ -29,68 +29,68 @@
                     },
                     {
                         "$$key": "feature-section-1",
-                        "_type": "section_features",
+                        "$$type": "section_features",
                         "background": "gray",
                         "features": [
                           {
                             "$$key": "1",
-                            "_type": "feature_item",
+                            "$$type": "feature_item",
                             "actions": [
                               {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                               }
                             ],
                             "content": "When the site content is changed, instantly update the page in the browser.",
                             "image": {
-                              "_type": "image",
+                              "$$type": "image",
                               "asset": {
                                 "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                               }
                             },
                             "title": "Live Updates on Content Change!"
                           },
                           {
                             "$$key": "2",
-                            "_type": "feature_item",
+                            "$$type": "feature_item",
                             "actions": [
                               {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                               }
                             ],
                             "content": "Instead of executing an API call every time a page is requested, a single API call is made when the development server starts, fetching the content and caching it for future use.",
                             "image": {
-                              "_type": "image",
+                              "$$type": "image",
                               "asset": {
                                 "_ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                               }
                             },
                             "title": "Content Caching"
                           },
                           {
                             "$$key": "3",
-                            "_type": "feature_item",
+                            "$$type": "feature_item",
                             "actions": [
                               {
                                 "$$key": "action-1",
-                                "_type": "action",
+                                "$$type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
                               }
                             ],
                             "content": "The client is notified when content changes and changes are synced automatically.",
                             "image": {
-                              "_type": "image",
+                              "$$type": "image",
                               "asset": {
                                 "_ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png",
-                                "_type": "reference"
+                                "$$type": "reference"
                               }
                             },
                             "title": "Observe Content Changes"

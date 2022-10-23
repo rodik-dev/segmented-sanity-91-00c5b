@@ -11,7 +11,7 @@
                     "$$type": "image",
                     "asset": {
                         "$$type": "reference",
-                        "_ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
+                        "$$ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
                     }
                 },
                 "actions": [

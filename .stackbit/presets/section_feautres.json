@@ -8,11 +8,11 @@
                 "background": "gray",
                 "features": [
                     {
-                        "_key": "1",
+                        "$$key": "1",
                         "_type": "feature_item",
                         "actions": [
                             {
-                                "_key": "action-1",
+                                "$$key": "action-1",
                                 "_type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
@@ -29,11 +29,11 @@
                         "title": "Live Updates on Content Change!"
                     },
                     {
-                        "_key": "2",
+                        "$$key": "2",
                         "_type": "feature_item",
                         "actions": [
                             {
-                                "_key": "action-1",
+                                "$$key": "action-1",
                                 "_type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
@@ -50,11 +50,11 @@
                         "title": "Content Caching"
                     },
                     {
-                        "_key": "3",
+                        "$$key": "3",
                         "_type": "feature_item",
                         "actions": [
                             {
-                                "_key": "action-1",
+                                "$$key": "action-1",
                                 "_type": "action",
                                 "label": "Learn More",
                                 "url": "/features"
@@ -83,11 +83,11 @@
                 "background": "white",
                 "features": [
                     {
-                        "_key": "1",
+                        "$$key": "1",
                         "_type": "feature_item",
                         "actions": [
                             {
-                                "_key": "action-1",
+                                "$$key": "action-1",
                                 "_type": "action",
                                 "label": "Learn More",
                                 "url": "/features"

@@ -13,6 +13,7 @@ export default {
             const isPageModel = ['page', 'landing'].includes(model.name);
             model = {
                 ...model,
+                fields: 
                 ...(isPageModel ? { type: 'page' } : {}),
                 urlPath: '/{slug}',
                 labelField: 'title'

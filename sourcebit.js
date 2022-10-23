@@ -25,7 +25,7 @@ module.exports = {
                     if (modelName === '__asset') {
                         return _.get(value, 'url');
                     }
-                    // copy modelName to "_type" field
+                    // copy modelName to "$$type" field
                     if (modelName) {
                         return _.assign({_type: modelName}, value);
                     }

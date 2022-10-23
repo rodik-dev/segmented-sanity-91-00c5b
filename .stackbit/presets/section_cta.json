@@ -10,7 +10,7 @@
                 "actions": [
                     {
                         "$$key": "cta-action-1",
-                        "_type": "action",
+                        "$$type": "action",
                         "label": "Get Started",
                         "url": "#"
                     }

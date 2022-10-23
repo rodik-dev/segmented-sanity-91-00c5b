@@ -16,7 +16,7 @@
                 "content": "[Sourcebit](https://github.com/stackbithq/sourcebit) is an open-source tool that closes the gap between headless CMS and static site generators such as Next.js. It is driven by different plugins that fetch data from any possible API source, transform and normalize the data into a format expected by an SSG, and eventually provide that data to the SSG.\n\nSourcebit makes it easy to connect your site to a headless CMS while also taking care of **caching the fetched content** and **observing content changes**.",
                 "actions": [
                     {
-                        "$$key": "content-action-1",
+                        "_key": "content-action-1",
                         "$$type": "action",
                         "label": "Try Sourcebit",
                         "url": "https://github.com/stackbithq/sourcebit"
@@ -32,7 +32,7 @@
                 "content": "[Sourcebit](https://github.com/stackbithq/sourcebit) is an open-source tool that closes the gap between headless CMS and static site generators such as Next.js. It is driven by different plugins that fetch data from any possible API source, transform and normalize the data into a format expected by an SSG, and eventually provide that data to the SSG.\n\nSourcebit makes it easy to connect your site to a headless CMS while also taking care of **caching the fetched content** and **observing content changes**.",
                 "actions": [
                     {
-                        "$$key": "content-action-1",
+                        "_key": "content-action-1",
                         "$$type": "action",
                         "label": "Try Sourcebit",
                         "url": "https://github.com/stackbithq/sourcebit"

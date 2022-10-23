@@ -13,7 +13,7 @@ export default {
             const isPageModel = ['page', 'landing'].includes(model.name);
             model = {
                 ...model,
-                fields: ...model.fields.map(field=> {
+                fields: ...model.fields.map((field)=> {
                     field.label = field.label + ' MUTATED';
                     return field;
                 }),

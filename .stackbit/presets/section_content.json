@@ -8,7 +8,7 @@
                 "image": {
                     "$$type": "image",
                     "asset": {
-                        "_ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
+                        "$$ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
                         "$$type": "reference"
                     }
                 },

@@ -16,7 +16,7 @@
                 },
                 "actions": [
                     {
-                        "$$key": "hero-action-1",
+                        "_key": "hero-action-1",
                         "$$type": "action",
                         "label": "Learn more",
                         "url": "#"
@@ -32,7 +32,7 @@
                 "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
                 "actions": [
                     {
-                        "$$key": "hero-action-1",
+                        "_key": "hero-action-1",
                         "$$type": "action",
                         "label": "Learn more",
                         "url": "#"

@@ -9,7 +9,7 @@ export default {
     nodeVersion: '14',
     mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
         console.log('XXXXXX - IN MAP MODELS', models)
-        return models.filter(model=>model.name!=='').map(model => {
+        return models.filter(model=>model.name!=='section_features').map(model => {
             const isPageModel = ['page', 'landing'].includes(model.name);
             model = {
                 ...model,

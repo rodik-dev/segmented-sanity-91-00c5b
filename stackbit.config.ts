@@ -8,7 +8,7 @@ export default {
     publishDir: 'out',
     nodeVersion: '14',
     mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
-        console.log('XXXXXX - IN MAP MODELS', models)
+        console.log('XXXXXX - IN MAP MODELS', {env: process.env.SEGMENT})
         return models.map(model => {
             const isPageModel = ['page', 'landing'].includes(model.name);
             model = {

@@ -14,7 +14,7 @@ export default {
             model = {
                 ...model,
                 fields: model.fields.map((field)=> {
-                    field.label = field.label + ' MUTATED';
+                    field.label = field.label + ' MUTATED 1';
                     return field;
                 }),
                 ...(isPageModel ? { type: 'page' } : {}),

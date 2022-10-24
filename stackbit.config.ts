@@ -20,7 +20,7 @@ export default {
                 ...(isPageModel ? { type: 'page' } : {}),
                 urlPath: '/{slug}',
                 labelField: 'title',
-                hidden: .filter(model=>model.name!=='section_features')
+                hidden: model.name!=='section_features'
             };
             return model;
         });

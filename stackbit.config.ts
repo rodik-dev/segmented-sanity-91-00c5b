@@ -19,7 +19,8 @@ export default {
                 }),
                 ...(isPageModel ? { type: 'page' } : {}),
                 urlPath: '/{slug}',
-                labelField: 'title'
+                labelField: 'title',
+                hidden: .filter(model=>model.name!=='section_features')
             };
             return model;
         });
